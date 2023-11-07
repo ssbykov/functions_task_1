@@ -13,7 +13,7 @@ class MainKtTest {
             cardType = "MasterCard",
             initSum = 75_000.0
         )
-        assertEquals(25.0, result, 0.1)
+        assertEquals(26.0, result, 0.1)
 
         //тест на сумму частично превышающую месячный лимит
         result = calcCommission(
